@@ -281,10 +281,10 @@ width: 362px;
 .pager__display,.pager__list {
   display: inline-block;
   vertical-align: middle;
+  margin-left: 5px;
 }
 
 .pager__display {
-  margin-bottom: 26px;
   line-height: 32px;
 }
 
