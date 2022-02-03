@@ -8,6 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body:last-child {
+  margin-top: 0;
+}
+
 a {
   color: inherit;
 }
@@ -168,11 +172,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .section__text {
   display: inline-block;
+  margin-top: 246px;
 }
 
 .section__title {
   font-size: 36px;
   font-weight: bold;
+  margin-bottom: 51px;
 }
 
 .section__img {
@@ -250,7 +256,9 @@ width: 362px;
   margin-right: 11px;
 }
 
-
+.news__item:last-child {
+  margin-right: 0;
+}
 
 .news__cover {
   display: block;
